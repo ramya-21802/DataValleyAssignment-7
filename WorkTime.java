@@ -4,11 +4,11 @@ public class WorkHours {
 
     public static void main(String[] args) {
         List<EmployeeWorkHours> workHoursList = new ArrayList<>();
-        workHoursList.add(new EmployeeWorkHours("Maha", new int[]{8, 8, 9, 6, 8})); 
-        workHoursList.add(new EmployeeWorkHours("Kamala", new int[]{6, 9, 9, 8, 8})); 
-        workHoursList.add(new EmployeeWorkHours("Valli", new int[]{9, 9, 8, 7, 9})); 
-        workHoursList.add(new EmployeeWorkHours("Seetha", new int[]{8, 9, 7, 5, 6})); 
-        workHoursList.add(new EmployeeWorkHours("Swathi", new int[]{8, 5, 8, 9, 7})); 
+        workHoursList.add(new EmployeeWorkHours("Rani", new int[]{8,9,3,4,5})); 
+        workHoursList.add(new EmployeeWorkHours("Rama", new int[]{5,8,9,2,3})); 
+        workHoursList.add(new EmployeeWorkHours("Uma", new int[]{6,8,4,5,9})); 
+        workHoursList.add(new EmployeeWorkHours("Harshi", new int[]{8,6,1,7,3})); 
+        workHoursList.add(new EmployeeWorkHours("Swetha", new int[]{8, 7, 5, 9, 6})); 
 
         Map<String, Integer> hoursCount = new LinkedHashMap<>();
         hoursCount.put("More than 40 hours", 0);
